@@ -1,0 +1,32 @@
+# Runtime state — created by the skills as they run, never shipped
+**/clients/
+**/projects/
+**/outputs/
+**/analyst-output/
+**/marketing-output/
+**/research-output/
+**/finance-analysis/
+**/.agentco/
+**/.sales/
+
+# Append-only runtime logs (schemas are shipped; the logs are the user's)
+**/history/runs.jsonl
+**/councils/*.jsonl
+**/learning/*.jsonl
+**/learning/records/
+**/learning/meta-retrospect-*.md
+**/learning/apply-report-*.md
+**/councils/meta-retrospect-*.md
+**/councils/apply-report-*.md
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
