@@ -70,6 +70,21 @@ Three council types wrap the pipeline:
 
 ## Install
 
+**Importing from GitHub** (marketplaces, or any skill importer that takes a URL) — paste
+**this** URL. It points at the folder that contains `SKILL.md`, which is one level below the
+repo root:
+
+```
+https://github.com/tohir-dev/aqly-software-team/tree/main/software-team
+```
+
+> ⚠️ The bare repo URL (`https://github.com/tohir-dev/aqly-software-team`) will **not** work —
+> there is no `SKILL.md` at the repo root.
+
+**Installing manually** — clone or download the repo, then copy the inner
+**`software-team/`** folder (not the `aqly-software-team` repo folder — the skill directory name must
+match the `name:` in `SKILL.md`).
+
 **Project scope** — available in one repo:
 
 ```bash
