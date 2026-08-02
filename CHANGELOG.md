@@ -7,6 +7,10 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ## [Unreleased]
 
+_Nothing yet._
+
+## [1.1.0] — 2026-08-02
+
 ### Changed
 
 - **Licence — added a free-use grant.** Personal use, internal business use, modification for your own
@@ -17,9 +21,6 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
   versions but cannot be revoked for a version already obtained under it.
 - **Install instructions** now point at the skill folder (`.../tree/main/software-team`) rather than the
   repository root, which contains no `SKILL.md` and cannot be imported.
-
-> These changes are live on `main`, so they already reach anyone importing from it, but they are not
-> yet covered by a version tag.
 
 ## [1.0.0] — 2026-08-01
 
@@ -32,5 +33,6 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 - Append-only run and council log schemas. Logs are created on first run, so the package ships clean.
 - Gate discipline: a `verdict: pass` without pasted command output is treated as a failure; failures are classified before routing; retry cap of 3 per gate, then an honest `BLOCKED.md` stop.
 
-[Unreleased]: https://github.com/tohir-dev/aqly-software-team/compare/v1.0.0...main
+[Unreleased]: https://github.com/tohir-dev/aqly-software-team/compare/v1.1.0...main
+[1.1.0]: https://github.com/tohir-dev/aqly-software-team/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/tohir-dev/aqly-software-team/releases/tag/v1.0.0
